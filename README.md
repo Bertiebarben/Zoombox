@@ -1,5 +1,5 @@
 # Zoombox
-A BASH Zoom client!
+The Open source BASH Zoom client!
 
 Commands include:
 ./zoombox.sh                # join immediately using saved values (asks on first run)
