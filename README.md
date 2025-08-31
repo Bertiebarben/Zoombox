@@ -18,7 +18,11 @@ Commands include:
 Controlls to exit meeting with HDMI CEC:
 
 KEY_EXIT (Exit)
+
 KEY_HOME (Home)
+
 KEY_BACK (Back / Return)
+
 KEY_STOP (Stop)
+
 KEY_POWER (Power)
