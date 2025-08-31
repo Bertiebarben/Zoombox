@@ -2,6 +2,7 @@
 The Open source BASH Zoom client!
 
 Commands include:
+
 ./Boom.sh                # join immediately using saved values (asks on first run)
 
 ./Boom.sh --edit         # change saved values
