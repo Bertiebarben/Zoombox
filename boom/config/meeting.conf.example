@@ -1,0 +1,4 @@
+MEETING_ID=<your_meeting_id>
+PSK=<your_passcode>
+SCHEDULE_DAYS=mon,tue,wed,thu,fri,sat,sun
+SCHEDULE_MAP=Mon=HH:MM,Tue=HH:MM,Wed=HH:MM,Thu=HH:MM,Fri=HH:MM,Sat=HH:MM,Sun=HH:MM

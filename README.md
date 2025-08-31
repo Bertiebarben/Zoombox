@@ -1,29 +1,32 @@
-# Boom
-The Open source BASH Zoom client!
+# Boom - Automated Zoom Meeting Manager
 
-Commands include:
+Boom automates joining Zoom meetings and provides HDMI‑CEC + keyboard controls.
 
-./Boom.sh                # join immediately using saved values (asks on first run)
+## Usage (examples)
 
-./Boom.sh --edit         # change saved values
+- To join a meeting immediately:
+  ```
+  ./boom.sh
+  ```
 
-./Boom.sh --forget       # remove saved config
+- To edit saved configurations:
+  ```
+  ./boom.sh --edit
+  ```
 
-./Boom.sh --reset        # reset and reconfigure meeting details + schedule
+- To remove saved configurations:
+  ```
+  ./boom.sh --forget
+  ```
 
-./Boom.sh --no-cec       # disable HDMI-CEC monitoring
+- To reset and reconfigure meeting details:
+  ```
+  ./boom.sh --reset
+  ```
 
-./Boom.sh --scheduler    # run scheduler loop (joins at configured day/time)
+- To run the scheduler loop for automatic joining:
+  ```
+  ./boom.sh --scheduler
+  ```
 
-
-Controlls to exit meeting with HDMI CEC:
-
-KEY_EXIT (Exit)
-
-KEY_HOME (Home)
-
-KEY_BACK (Back / Return)
-
-KEY_STOP (Stop)
-
-KEY_POWER (Power)
+If you keep the script inside a bin/ directory, adjust paths (e.g. ./bin/boom.sh). Update systemd unit names to refer to "boom" instead of "zoombox" if you set up a service.

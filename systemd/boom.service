@@ -1,0 +1,14 @@
+[Unit]
+Description=Boom — Automated Zoom Meeting Manager
+After=display-manager.service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/bobert/Desktop/code/boom/boom.sh --scheduler
+Restart=on-failure
+User=bobert
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/bobert/.Xauthority
+
+[Install]
+WantedBy=multi-user.target
