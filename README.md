@@ -13,3 +13,12 @@ Commands include:
 ./zoombox.sh --no-cec       # disable HDMI-CEC monitoring
 
 ./zoombox.sh --scheduler    # run scheduler loop (joins at configured day/time)
+
+
+Controlls to exit meeting with HDMI CEC:
+
+KEY_EXIT (Exit)
+KEY_HOME (Home)
+KEY_BACK (Back / Return)
+KEY_STOP (Stop)
+KEY_POWER (Power)
