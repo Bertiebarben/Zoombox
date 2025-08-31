@@ -28,5 +28,3 @@ Boom automates joining Zoom meetings and provides HDMI‑CEC + keyboard controls
   ```
   ./boom.sh --scheduler
   ```
-
-If you keep the script inside a bin/ directory, adjust paths (e.g. ./bin/boom.sh). Update systemd unit names to refer to "boom" instead of "zoombox" if you set up a service.
