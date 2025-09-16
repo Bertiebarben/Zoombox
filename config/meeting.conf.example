@@ -1,0 +1,5 @@
+# Example configuration format for Boom (do not include this file, copy to ~/.config/boom/meeting.conf)
+MEETING_ID=123456789
+PSK=abcdef
+SCHEDULE_DAYS=mon,wed
+SCHEDULE_MAP=Mon=09:00,Wed=17:30
