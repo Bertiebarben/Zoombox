@@ -16,7 +16,7 @@ See docs/USAGE.md for usage. Use the GUI with zenity (ui/gui.sh) or run headless
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/Bertiebarben/Boom
    cd boom
    ```
 
